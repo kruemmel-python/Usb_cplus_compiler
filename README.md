@@ -54,6 +54,14 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\KR-Windows.ps1 -Source .\s
 - Linux x86-64: End-to-End getestet
 - Windows x86-64: One-Click-Bootstrap und nativer Self-Test enthalten; Windows-Ausführung muss auf einem Windows-Host erfolgen
 
-## Lizenzhinweis
+## Lizenzen und Drittanbieter-Komponenten
 
-Dieses Repository steht unter AGPL-3.0. Mitgelieferte oder optional heruntergeladene Drittanbieter-Komponenten behalten ihre jeweiligen eigenen Lizenzen. Insbesondere dürfen EDG-Komponenten nur veröffentlicht bzw. weiterverteilt werden, wenn die jeweilige EDG-Lizenz dies ausdrücklich erlaubt.
+Der EDG C/C++ Compiler Project wurde am 30. September 2026 als Open Source veröffentlicht. Der aktuelle Upstream `edgcpp/compiler` steht unter **Apache License 2.0 with LLVM Exceptions**. Diese Lizenz erlaubt die Weitergabe sowohl in Source- als auch Object-/Binary-Form, sofern die Lizenz- und Attributionsbedingungen eingehalten werden.
+
+Für EDG-Binärdistributionen dieses Projekts muss deshalb die EDG/LLVM-Lizenz mitgeliefert werden. Geänderte EDG-Dateien müssen entsprechend als geändert gekennzeichnet werden. EDG-Markenzeichen werden dadurch nicht lizenziert.
+
+Die KR-eigenen Projektdateien können unter der Repository-Lizenz stehen; eingebettete oder heruntergeladene Drittanbieter-Komponenten behalten ausdrücklich ihre jeweiligen eigenen Lizenzen. Eine Repository-Lizenz überschreibt diese Drittanbieter-Lizenzen nicht.
+
+Upstream EDG: https://github.com/edgcpp/compiler
+
+EDG Open-Source-Information: https://edgcpp.org/

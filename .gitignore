@@ -1,0 +1,19 @@
+# Generated output
+output/
+cache/
+
+# Downloaded Windows toolchain
+host/windows-x64/toolchain/
+
+# Intermediate EDG files
+*.ti
+*.ii
+*.i
+*.o
+*.obj
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

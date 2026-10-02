@@ -1,0 +1,14 @@
+EDG C/C++ Compiler Project
+Upstream: https://github.com/edgcpp/compiler
+License: Apache License 2.0 with LLVM Exceptions
+
+The complete authoritative upstream license is available at:
+https://github.com/edgcpp/compiler/blob/main/LICENSE.txt
+
+Redistribution note:
+The upstream license grants permission to reproduce and distribute the Work and Derivative Works in Source or Object form, subject to its terms, including redistribution and attribution requirements. Modified upstream files must carry prominent notices stating that they were changed. Trademark rights are not granted except for customary attribution.
+
+This project does not relicense EDG under the KR project's repository license. EDG components remain governed by their upstream license.
+
+IMPORTANT FOR BINARY PACKAGING:
+A release/archive containing EDG components should include the complete upstream LICENSE.txt, not only this summary. This file is an attribution pointer and packaging reminder, not a replacement for the license text.
